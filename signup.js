@@ -5,7 +5,6 @@ const password = document.querySelector("#password");
 window.onload = () => {   
     setTimeout(fillFormInput, 500);
 }
-  
 const fillFormInput = () => {
     email.value = "eve.holt@reqres.in";
     password.value = "pistol";
